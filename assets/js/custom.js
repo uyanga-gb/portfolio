@@ -71,23 +71,23 @@
 		/* ---------------------------------------------- */
        
 			$( function() {
-				/*
-				- how to call the plugin:
-				$( selector ).cbpQTRotator( [options] );
-				- options:
-				{
+				
+				// - how to call the plugin:
+				// $('#cbp-qtrotator').cbpQTRotator(speed:2000);
+				// - options:
+				// {
 					// default transition speed (ms)
-					speed : 700,
+					// speed : 700,
 					// default transition easing
-					easing : 'ease',
+					// easing : 'ease',
 					// rotator interval (ms)
-					interval : 8000
-				}
-				- destroy:
-				$( selector ).cbpQTRotator( 'destroy' );
-				*/
+					// interval : 8000
+				// }
+				// - destroy:
+				// $( selector ).cbpQTRotator( 'destroy' );
+				
 
-				$( '#cbp-qtrotator' ).cbpQTRotator();
+				$( '#cbp-qtrotator' ).cbpQTRotator({interval: 23000});
 
 			} );
 		
