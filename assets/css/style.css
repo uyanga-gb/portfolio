@@ -292,7 +292,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/item-3.jpg);
+    background: url(../images/live_life.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -340,8 +340,8 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/meAtLake.jpg);
-	background-color: #222;
+	background: url(../images/pattern.png);
+	background-color: rgba(116, 97, 186, 1);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 50%;
@@ -355,7 +355,8 @@ textarea.form-control {
 
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
+    background-image: url("../images/pattern2.jpg");
+    opacity: 0.4;
     background-repeat: repeat;
     height: 100%;
     left: 0;
