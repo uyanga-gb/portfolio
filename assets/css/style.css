@@ -357,7 +357,8 @@ textarea.form-control {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern2.jpg");
     opacity: 0.4;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     left: 0;
     position: absolute;
@@ -823,6 +824,10 @@ textarea.form-control {
 	font-style: normal;
 	line-height: 1;
 	-webkit-font-smooting: antialiased;
+}
+.small{
+	
+	font-size: 12px;
 }
 
 /*---------------*/
