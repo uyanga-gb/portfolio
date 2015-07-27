@@ -1130,6 +1130,9 @@ dd {
 .detail {
 	color: #7461BA;
 }
+#features {
+	margin-top: 350px;
+}
 
 /* Example for media query */
 @media screen and (max-width: 30.6em) { 
